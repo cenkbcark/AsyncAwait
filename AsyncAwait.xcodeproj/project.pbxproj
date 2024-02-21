@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		BCA409BB2B7FED36003C19DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409BA2B7FED36003C19DA /* AppDelegate.swift */; };
 		BCA409BD2B7FED36003C19DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409BC2B7FED36003C19DA /* SceneDelegate.swift */; };
-		BCA409BF2B7FED36003C19DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409BE2B7FED36003C19DA /* ViewController.swift */; };
 		BCA409C22B7FED36003C19DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA409C02B7FED36003C19DA /* Main.storyboard */; };
 		BCA409C42B7FED37003C19DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA409C32B7FED37003C19DA /* Assets.xcassets */; };
 		BCA409C72B7FED37003C19DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA409C52B7FED37003C19DA /* LaunchScreen.storyboard */; };
+		BCA409D42B7FEE55003C19DA /* Endpointable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409D32B7FEE55003C19DA /* Endpointable.swift */; };
+		BCA409D72B7FEE8A003C19DA /* MainEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409D62B7FEE8A003C19DA /* MainEndPoint.swift */; };
+		BCA409D92B7FEF0B003C19DA /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409D82B7FEF0B003C19DA /* Networkable.swift */; };
+		BCA409DC2B7FEF68003C19DA /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409DB2B7FEF68003C19DA /* ServiceManager.swift */; };
+		BCA409E02B7FF86D003C19DA /* MostPlayedSongResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409DF2B7FF86D003C19DA /* MostPlayedSongResponse.swift */; };
+		BCA409E32B7FF888003C19DA /* MainDataProviderProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409E22B7FF888003C19DA /* MainDataProviderProtocols.swift */; };
+		BCA409E52B7FF88D003C19DA /* MainDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409E42B7FF88D003C19DA /* MainDataProvider.swift */; };
+		BCA409E82B7FF943003C19DA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409E72B7FF943003C19DA /* MainViewModel.swift */; };
+		BCA409EA2B7FF948003C19DA /* MainViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409E92B7FF948003C19DA /* MainViewModelProtocol.swift */; };
+		BCA409ED2B7FF9E6003C19DA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA409EC2B7FF9E6003C19DA /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCA409B72B7FED36003C19DA /* AsyncAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA409BA2B7FED36003C19DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCA409BC2B7FED36003C19DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCA409BE2B7FED36003C19DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCA409C12B7FED36003C19DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCA409C32B7FED37003C19DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCA409C62B7FED37003C19DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCA409C82B7FED37003C19DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA409D32B7FEE55003C19DA /* Endpointable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpointable.swift; sourceTree = "<group>"; };
+		BCA409D62B7FEE8A003C19DA /* MainEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEndPoint.swift; sourceTree = "<group>"; };
+		BCA409D82B7FEF0B003C19DA /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		BCA409DB2B7FEF68003C19DA /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		BCA409DF2B7FF86D003C19DA /* MostPlayedSongResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPlayedSongResponse.swift; sourceTree = "<group>"; };
+		BCA409E22B7FF888003C19DA /* MainDataProviderProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataProviderProtocols.swift; sourceTree = "<group>"; };
+		BCA409E42B7FF88D003C19DA /* MainDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataProvider.swift; sourceTree = "<group>"; };
+		BCA409E72B7FF943003C19DA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		BCA409E92B7FF948003C19DA /* MainViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelProtocol.swift; sourceTree = "<group>"; };
+		BCA409EC2B7FF9E6003C19DA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,112 @@
 		BCA409B92B7FED36003C19DA /* AsyncAwait */ = {
 			isa = PBXGroup;
 			children = (
-				BCA409BA2B7FED36003C19DA /* AppDelegate.swift */,
-				BCA409BC2B7FED36003C19DA /* SceneDelegate.swift */,
-				BCA409BE2B7FED36003C19DA /* ViewController.swift */,
-				BCA409C02B7FED36003C19DA /* Main.storyboard */,
-				BCA409C32B7FED37003C19DA /* Assets.xcassets */,
-				BCA409C52B7FED37003C19DA /* LaunchScreen.storyboard */,
+				BCA409DD2B7FF85E003C19DA /* Modules */,
+				BCA409D02B7FEDC6003C19DA /* Network */,
+				BCA409CF2B7FEDBE003C19DA /* Resources */,
+				BCA409CE2B7FEDB4003C19DA /* Delegates */,
 				BCA409C82B7FED37003C19DA /* Info.plist */,
 			);
 			path = AsyncAwait;
+			sourceTree = "<group>";
+		};
+		BCA409CE2B7FEDB4003C19DA /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409BA2B7FED36003C19DA /* AppDelegate.swift */,
+				BCA409BC2B7FED36003C19DA /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		BCA409CF2B7FEDBE003C19DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409C02B7FED36003C19DA /* Main.storyboard */,
+				BCA409C32B7FED37003C19DA /* Assets.xcassets */,
+				BCA409C52B7FED37003C19DA /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BCA409D02B7FEDC6003C19DA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409DA2B7FEF61003C19DA /* Manager */,
+				BCA409D52B7FEE77003C19DA /* Endpoints */,
+				BCA409D12B7FEDCB003C19DA /* Protocols */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BCA409D12B7FEDCB003C19DA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409D32B7FEE55003C19DA /* Endpointable.swift */,
+				BCA409D82B7FEF0B003C19DA /* Networkable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BCA409D52B7FEE77003C19DA /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409D62B7FEE8A003C19DA /* MainEndPoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		BCA409DA2B7FEF61003C19DA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409DB2B7FEF68003C19DA /* ServiceManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BCA409DD2B7FF85E003C19DA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409EB2B7FF9CD003C19DA /* View */,
+				BCA409E62B7FF93E003C19DA /* ViewModel */,
+				BCA409E12B7FF879003C19DA /* MainDataProvider */,
+				BCA409DE2B7FF861003C19DA /* Response */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BCA409DE2B7FF861003C19DA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409DF2B7FF86D003C19DA /* MostPlayedSongResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		BCA409E12B7FF879003C19DA /* MainDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409E22B7FF888003C19DA /* MainDataProviderProtocols.swift */,
+				BCA409E42B7FF88D003C19DA /* MainDataProvider.swift */,
+			);
+			path = MainDataProvider;
+			sourceTree = "<group>";
+		};
+		BCA409E62B7FF93E003C19DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409E72B7FF943003C19DA /* MainViewModel.swift */,
+				BCA409E92B7FF948003C19DA /* MainViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BCA409EB2B7FF9CD003C19DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCA409EC2B7FF9E6003C19DA /* MainViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA409BF2B7FED36003C19DA /* ViewController.swift in Sources */,
 				BCA409BB2B7FED36003C19DA /* AppDelegate.swift in Sources */,
+				BCA409E32B7FF888003C19DA /* MainDataProviderProtocols.swift in Sources */,
+				BCA409D42B7FEE55003C19DA /* Endpointable.swift in Sources */,
+				BCA409ED2B7FF9E6003C19DA /* MainViewController.swift in Sources */,
+				BCA409E02B7FF86D003C19DA /* MostPlayedSongResponse.swift in Sources */,
 				BCA409BD2B7FED36003C19DA /* SceneDelegate.swift in Sources */,
+				BCA409E82B7FF943003C19DA /* MainViewModel.swift in Sources */,
+				BCA409EA2B7FF948003C19DA /* MainViewModelProtocol.swift in Sources */,
+				BCA409D92B7FEF0B003C19DA /* Networkable.swift in Sources */,
+				BCA409D72B7FEE8A003C19DA /* MainEndPoint.swift in Sources */,
+				BCA409DC2B7FEF68003C19DA /* ServiceManager.swift in Sources */,
+				BCA409E52B7FF88D003C19DA /* MainDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +421,6 @@
 				INFOPLIST_FILE = AsyncAwait/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +448,6 @@
 				INFOPLIST_FILE = AsyncAwait/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

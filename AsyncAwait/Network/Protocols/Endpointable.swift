@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol Endpointable {
+    var baseUrl: String { get }
+    var fullPath: String { get }
+}

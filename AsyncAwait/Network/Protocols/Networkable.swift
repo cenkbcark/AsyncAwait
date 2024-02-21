@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol Networkable {
+    func fetchData<T: Decodable>(endPoint: Endpointable) async throws -> T
+}

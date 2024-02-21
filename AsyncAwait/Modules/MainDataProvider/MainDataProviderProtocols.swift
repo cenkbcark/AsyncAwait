@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+protocol MainDataProviderProtocol {
+    func fetchMostPlayedSongs(endPoint: Endpointable) async throws -> MostPlayedSongResponse
+    func fetchApps(endPoint: Endpointable) async throws -> MostPlayedSongResponse
+    func fetchBooks(endPoint: Endpointable) async throws -> MostPlayedSongResponse
+    func fetchPodcast(endPoint: Endpointable) async throws -> MostPlayedSongResponse
+}
