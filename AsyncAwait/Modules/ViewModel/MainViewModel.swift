@@ -21,6 +21,54 @@ final class MainViewModel: MainViewModelProtocol {
         self.dataProvider = dataProvider
     }
     
+    func fetchSongs() {
+        Task {
+            do {
+                songsList = try await dataProvider.fetchMostPlayedSongs(endPoint: MainEndPoint.music)
+                self.tabListSection.append(.songs)
+                delegate?.handle(.reloadTableView)
+            }catch {
+                print(("Foo fetchSongs error: \(error.localizedDescription)"))
+            }
+        }
+    }
+    
+    func fetchApps() {
+        Task {
+            do {
+                appsList = try await dataProvider.fetchApps(endPoint: MainEndPoint.apps)
+                self.tabListSection.append(.apps)
+                delegate?.handle(.reloadTableView)
+            }catch {
+                print(("Foo fetchApps error: \(error.localizedDescription)"))
+            }
+        }
+    }
+    
+    func fetchBooks() {
+        Task {
+            do {
+                booksList = try await dataProvider.fetchApps(endPoint: MainEndPoint.books)
+                self.tabListSection.append(.books)
+                delegate?.handle(.reloadTableView)
+            }catch {
+                print(("Foo fetchBooks error: \(error.localizedDescription)"))
+            }
+        }
+    }
+    
+    func fetchPodcasts() {
+        Task {
+            do {
+                podcastsList = try await dataProvider.fetchApps(endPoint: MainEndPoint.podcast)
+                self.tabListSection.append(.podcasts)
+                delegate?.handle(.reloadTableView)
+            }catch {
+                print(("Foo fetchPodcasts error: \(error.localizedDescription)"))
+            }
+        }
+    }
+    
     func viewDidLoadTask() {
         Task {
             do {

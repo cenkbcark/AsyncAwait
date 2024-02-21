@@ -16,6 +16,10 @@ protocol MainViewModelProtocol {
     var tabListSection: [TabListSection] { get set }
     
     func viewDidLoadTask()
+    func fetchSongs()
+    func fetchApps()
+    func fetchBooks()
+    func fetchPodcasts()
     func updateUI(songs: MostPlayedSongResponse?, apps: MostPlayedSongResponse?, books: MostPlayedSongResponse?, podcasts: MostPlayedSongResponse?)
 }
 

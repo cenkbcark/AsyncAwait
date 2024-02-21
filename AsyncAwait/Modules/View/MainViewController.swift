@@ -27,6 +27,10 @@ final class MainViewController: UIViewController {
         view.backgroundColor = .white
         makeConstraints()
         configureDelegate()
+        viewModel?.fetchApps()
+        viewModel?.fetchBooks()
+        viewModel?.fetchPodcasts()
+        viewModel?.fetchSongs()
         viewModel?.viewDidLoadTask()
     }
 }
